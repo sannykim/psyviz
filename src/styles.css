@@ -1,0 +1,64 @@
+@import url("https://rsms.me/inter/inter.css");
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+:root {
+  --background-main: #edf4f7;
+  --background-side: #f4f8fa;
+  --primary-blue: #32444d;
+  --secondary-blue: #b3c3cc;
+  --primary-orange: #ff6719;
+  --secondary-orange: #ffaa80;
+  --line-color: #99a7d2;
+  --area-color: #f1f1f1;
+  --circle-color: #f03009;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.body {
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--background-main);
+  color: var(--primary-blue);
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h2 {
+  color: var(--secondary-blue);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 24px 0 0 0;
+}
+
+.grid-cell {
+  border: 1px solid #eee;
+  box-shadow: 1px 5px 5px #eee;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.grid-header {
+  margin: 0 2rem;
+  font-size: large;
+  font-weight: 700;
+}
+.grid-text {
+  margin: 0 2rem;
+}
