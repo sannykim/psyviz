@@ -4,6 +4,8 @@ Digestible data around options activity on Solana is pretty inaccessible at the 
 
 A weekend project by [Aletna](https://github.com/aletna) and I. Started out as an anon project but now uploading it to my main Github.
 
+![screenshot](./public/screenshot.png)
+
 ## How we built it
 
 - TypeScript, React and Tailwind / DaisyUI for the front-end
@@ -32,11 +34,9 @@ A weekend project by [Aletna](https://github.com/aletna) and I. Started out as a
       - Expiration Date
       - Contract Size
 
-## Challenges 
+## Some challenges 
 
 Hitting request limits for the API, filtering the right data as well as modifying and cleaning the data into a usable format. Shoutout to the PsyOptions and Serum discord servers for being major sources of support during the hackathon!
-
-![screenshot](./public/screenshot.png)
 
 ## Run
 
